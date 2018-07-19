@@ -23,12 +23,11 @@ This project is about revealing trends and patterns across demographics from liv
 * Extracted important fields and produced JSON with processed fields for each incoming tweet
 * Passed each tweet through a spam detector and flag spam messages
 * Converted JSON into Map and send it to an Elasticsearch Cluster with relevant mappings
-* Analyical results from data in Elasticsearch are visualized with Kibana dashboards
+* Analytical results from data in Elasticsearch are visualized with Kibana dashboards
 
 ![alt text](https://wlbhiro.files.wordpress.com/2015/01/realtime_batch_architecture.png)
 
 # Results 
-<p align="center">
-  <img src="/Users/deepikasharma/Downloads/image1.png" width="350" title="hover text"/>
-  
-</p>
+![Alt Text](/images/image2.png)
+![Alt Text](/images/image3.png)
+
