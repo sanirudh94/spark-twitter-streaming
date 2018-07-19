@@ -1,0 +1,30 @@
+[0m[[31merror[0m] [0mModules were resolved with conflicting cross-version suffixes in {file:/Users/deepikasharma/Desktop/ScreamingTwitter-master/}screamingtwitter-master:[0m
+[0m[[31merror[0m] [0m   org.json4s:json4s-ast _2.10, _2.11[0m
+[0m[[31merror[0m] [0m   com.twitter:chill _2.11, _2.10[0m
+[0m[[31merror[0m] [0m   org.json4s:json4s-jackson _2.11, _2.10[0m
+[0m[[31merror[0m] [0m   org.json4s:json4s-core _2.10, _2.11[0m
+[0m[[31merror[0m] [0m   org.apache.spark:spark-core _2.11, _2.10[0m
+java.lang.RuntimeException: Conflicting cross-version suffixes in: org.json4s:json4s-ast, com.twitter:chill, org.json4s:json4s-jackson, org.json4s:json4s-core, org.apache.spark:spark-core
+	at scala.sys.package$.error(package.scala:27)
+	at sbt.ConflictWarning$.processCrossVersioned(ConflictWarning.scala:47)
+	at sbt.ConflictWarning$.apply(ConflictWarning.scala:30)
+	at sbt.Classpaths$$anonfun$60.apply(Defaults.scala:1090)
+	at sbt.Classpaths$$anonfun$60.apply(Defaults.scala:1090)
+	at scala.Function1$$anonfun$compose$1.apply(Function1.scala:47)
+	at sbt.$tilde$greater$$anonfun$$u2219$1.apply(TypeFunctions.scala:42)
+	at sbt.std.Transform$$anon$4.work(System.scala:64)
+	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:237)
+	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:237)
+	at sbt.ErrorHandling$.wideConvert(ErrorHandling.scala:18)
+	at sbt.Execute.work(Execute.scala:244)
+	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:237)
+	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:237)
+	at sbt.ConcurrentRestrictions$$anon$4$$anonfun$1.apply(ConcurrentRestrictions.scala:160)
+	at sbt.CompletionService$$anon$2.call(CompletionService.scala:30)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[0m[[31merror[0m] [0m(*:[31mupdate[0m) Conflicting cross-version suffixes in: org.json4s:json4s-ast, com.twitter:chill, org.json4s:json4s-jackson, org.json4s:json4s-core, org.apache.spark:spark-core[0m
