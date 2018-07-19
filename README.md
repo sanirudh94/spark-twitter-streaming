@@ -1,4 +1,4 @@
-# spark-twitter-streaming
+# Spark Twitter Streaming and Spam Detection
 This project is about revealing trends and patterns across demographics from live Twitter data stream. Also filter through spam messages to get relevant trending information.
 
 # Motivation 
@@ -28,6 +28,9 @@ This project is about revealing trends and patterns across demographics from liv
 ![alt text](https://wlbhiro.files.wordpress.com/2015/01/realtime_batch_architecture.png)
 
 # Results 
-![Alt Text](/images/image2.png)
-![Alt Text](/images/image3.png)
+![](/images/screenshot1.png)
+
+![](/images/screenshot2.png)
+
+![](/images/screenshot3.png)
 
